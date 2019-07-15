@@ -21,3 +21,7 @@ resource "random_id" "server" {
 output "random_server" {
   value = "${random_id.server.id}"
 }
+
+output "var_description" {
+  value = "${var.description_id}"
+}
