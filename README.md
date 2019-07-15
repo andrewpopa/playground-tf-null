@@ -9,3 +9,5 @@ terraform plan
 terraform apply
 terraform destroy
 ```
+
+add as functionality `random` provider and `random_pet` capability
