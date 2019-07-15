@@ -8,3 +8,8 @@ resource "null_resource" "example"{
   }
 }
 
+resource "random_pet" "server" {}
+
+output "random_name" {
+  value = "${random_pet.server.id}"
+}
