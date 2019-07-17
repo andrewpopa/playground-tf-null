@@ -1,11 +1,10 @@
-// null provider
 provider "null" {}
 
 module "example" {
   source = "./example"
 }
 
-resource "null_resource" "example"{
+resource "null_resource" "example" {
   count = 2
   provisioner "local-exec" {
     command = "echo Hello world! ${count.index}"
