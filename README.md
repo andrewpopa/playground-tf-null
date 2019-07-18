@@ -1,19 +1,29 @@
 # playground-tf-null
-TF basic examples with null provider/random/random_pet/vars/output/module
+TF null provider example
 
-will create 4 different resources 
+TF will create 2 null resources and count it.
 
-2 - null resources
+# Pre-requisites 
 
-1 - random_pet resource
+- install [git](https://git-scm.com/downloads)
+- install [Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
 
-1 - random provider example
+## clone repository to use it
+```
+git clone git@github.com:andrewpopa/playground-tf-null.git
+cd playground-tf-null
+```
 
-## Usage
+
+## usage
 
 ```
 terraform init
 terraform plan
 terraform apply
+```
+
+## destroy created infrastructure
+```
 terraform destroy
 ```
