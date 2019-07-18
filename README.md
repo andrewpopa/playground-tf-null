@@ -1,6 +1,4 @@
 # playground-tf-null
-TF null provider example
-
 TF will create 2 null resources and count it.
 
 # Pre-requisites 
